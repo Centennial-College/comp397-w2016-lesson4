@@ -14,7 +14,7 @@ var intro: scenes.Intro;
 var leftCave: scenes.LeftCave;
 var rightCave: scenes.RightCave;
 
-var assetData = [
+var assetData: objects.Asset[] = [
     { id: "BackButton", src: "../../Assets/images/BackButton.png" },
     { id: "IntroCave", src: "../../Assets/images/IntroCave.png" },
     { id: "LeftCave", src: "../../Assets/images/LeftCave.png" },
